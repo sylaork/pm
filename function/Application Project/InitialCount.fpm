@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<count:count xmlns:count="http://www.functionpointmodeler.com/fpm/count" adjustedEnhancementFunctionPoint="86" adjustedFunctionPoint="86" countTyp="Application count" date="2024-11-11" id="1731315978100" name="InitialCount" phase="Inception" toSynchronize="true" unadjustedEnhancementFunctionPoint="95" unadjustedFunctionPoint="95" version="5.3.0">
+  <applicationSystems adjustedEnhancementFunctionPoint="86" adjustedFunctionPoint="86" id="1731315978109" name=" ContactApplication" unadjustedEnhancementFunctionPoint="95" unadjustedFunctionPoint="95" valueAdjustmentFactor="0.91">
+    <subSystems id="1731315978110" name="UserInterfaceSubsystem" unadjustedEnhancementFunctionPoint="95.0" unadjustedFunctionPoint="95">
+      <dataFunctions complexity="AVERAGE" functionTyp="EIF" id="1731315978119" name="Company" unadjustedEnhancementFunctionPoint="7.0" unadjustedFunctionPoint="7"/>
+      <dataFunctions complexity="AVERAGE" functionTyp="EIF" id="1731315978120" name="Name of Contact" unadjustedEnhancementFunctionPoint="7.0" unadjustedFunctionPoint="7"/>
+      <dataFunctions complexity="AVERAGE" functionTyp="EIF" id="1731315978121" name="Job Title" unadjustedEnhancementFunctionPoint="7.0" unadjustedFunctionPoint="7"/>
+      <dataFunctions complexity="AVERAGE" functionTyp="EIF" id="1731315978122" name="Date Of Inital Contact" unadjustedEnhancementFunctionPoint="7.0" unadjustedFunctionPoint="7"/>
+      <dataFunctions complexity="AVERAGE" functionTyp="EIF" id="1731315978123" name="Street Address" unadjustedEnhancementFunctionPoint="7.0" unadjustedFunctionPoint="7"/>
+      <dataFunctions complexity="AVERAGE" functionTyp="EIF" id="1731315978124" name="City" unadjustedEnhancementFunctionPoint="7.0" unadjustedFunctionPoint="7"/>
+      <dataFunctions complexity="AVERAGE" functionTyp="EIF" id="1731315978125" name="State" unadjustedEnhancementFunctionPoint="7.0" unadjustedFunctionPoint="7"/>
+      <dataFunctions complexity="AVERAGE" functionTyp="EIF" id="1731315978126" name="Postal Code" unadjustedEnhancementFunctionPoint="7.0" unadjustedFunctionPoint="7"/>
+      <dataFunctions complexity="AVERAGE" functionTyp="EIF" id="1731315978127" name="Country" unadjustedEnhancementFunctionPoint="7.0" unadjustedFunctionPoint="7"/>
+      <dataFunctions complexity="AVERAGE" functionTyp="EIF" id="1731315978128" name="Phone Number" unadjustedEnhancementFunctionPoint="7.0" unadjustedFunctionPoint="7"/>
+      <dataFunctions complexity="AVERAGE" functionTyp="EIF" id="1731315978129" name="Email Adress" unadjustedEnhancementFunctionPoint="7.0" unadjustedFunctionPoint="7"/>
+      <transactionalFunctions complexity="LOW" functionTyp="EI" id="1731315978112" impactFactor="1.0" name="Create Company Contact" numberFTRs="0" processTyp="Interactive" unadjustedEnhancementFunctionPoint="3.0" unadjustedFunctionPoint="3"/>
+      <transactionalFunctions complexity="LOW" functionTyp="EI" id="1731315978114" impactFactor="1.0" name="Update Company Contact" numberFTRs="0" processTyp="Interactive" unadjustedEnhancementFunctionPoint="3.0" unadjustedFunctionPoint="3"/>
+      <transactionalFunctions complexity="LOW" functionTyp="EI" id="1731315978115" impactFactor="1.0" name="Delete Company Contact" numberDETs="1" numberFTRs="0" processTyp="Interactive" unadjustedEnhancementFunctionPoint="3.0" unadjustedFunctionPoint="3"/>
+      <transactionalFunctions complexity="LOW" functionTyp="EQ" id="1731315978116" impactFactor="1.0" name="Retrieve Company Contact" numberDETs="6" numberFTRs="0" processTyp="Interactive" unadjustedEnhancementFunctionPoint="3.0" unadjustedFunctionPoint="3"/>
+      <transactionalFunctions complexity="LOW" functionTyp="EI" id="1731315978117" impactFactor="1.0" name="Packet Sent" numberFTRs="0" processTyp="Interactive" unadjustedEnhancementFunctionPoint="3.0" unadjustedFunctionPoint="3"/>
+      <transactionalFunctions complexity="LOW" functionTyp="EI" id="1731315978118" impactFactor="1.0" name="Phone Contact Completed" numberFTRs="0" processTyp="Interactive" unadjustedEnhancementFunctionPoint="3.0" unadjustedFunctionPoint="3"/>
+    </subSystems>
+    <generalSystemCharacteristics complexProcessing="Incidental influence" dataCommunications="Moderate influence" distributedDataProcessing="Incidental influence" endUserEfficiency="Significant influence" facilitateChange="Average influence" heavilyUsedConfiguration="Incidental influence" id="1731315978111" installationEase="Average influence" multipleSites="No influence" onlineDataEntry="No influence" onlineUpdate="Significant influence" operationalEase="Average influence" performance="Incidental influence" reusability="Incidental influence" transactionRate="Moderate influence"/>
+  </applicationSystems>
+</count:count>
